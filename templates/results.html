@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+<P style="page-break-before: always">
+
+{% block content %}
+<link rel="stylesheet" href="/static/css/style.css" >
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+
+<body  class="body" bgcolor="#fff" >
+    <div class="align"><h1 class="phonehead">
+        &#127881;CONGRATUALATIONS&#127881;
+    </h1> 
+<p>Your <span>{{date}}</span> days old.</p>
+<p class="line">_________________________________________________________________________________________________________</p>
+<div class="line2"></div>
+</div>
+<div class="rbody">
+    <h2 class="col">
+    <span>Your are in :</span>
+    </h2>
+    <p class="pmargin">  Years &emsp; &nbsp; &nbsp; &nbsp; : {{results}} 	&#128512; <br></p>
+    <p class="pmargin">  Months &emsp; &ensp; : {{Month}} &#128516; <br></p>
+    <p class="pmargin">  Weeks&ensp; &emsp;  &nbsp; : {{weeks}} 	&#128515; <br></p>
+    <p class="pmargin">  Days  &emsp;  &ensp;  &nbsp; &nbsp;&nbsp;:  	{{date}} &#128513;<br></p>
+    <p class="pmargin">  Hours  &emsp;  &ensp;  &nbsp;&nbsp; : {{hours}} 	&#128514; <br></p>
+    <p class="pmargin">  Minutes&emsp;&ensp;&ensp; : {{minutes}} 	&#128517; <br></p>
+    <p class="pmargin"> Seconds&emsp;&ensp;&ensp;: {{second}} 	&#128517; <br></p>
+
+    <br>
+    <br>
+
+</div>
+<footer >
+    <p class="ali"> share results </p>
+    <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send/?text=leelabhaskar22.github.io "><i class="fab fa-whatsapp"></i></a>
+        <a href="https://api.facebook.com/dialog/share?text=leelabhaskar22.github.io"><i class="fab fa-facebook" ></i></a>
+        <a href=""><i class="fab fa-facebook-messenger"></i></a>
+    </div>
+</footer>
+{% endblock %} 

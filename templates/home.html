@@ -1,0 +1,45 @@
+<P style="page-break-before: always">
+
+{% extends 'base.html' %}
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/static/css/style.css" >
+
+	
+</head>
+
+ 
+ <body  class="body"  >
+    
+    {% block content %}
+    <div class="body">
+    <h1 class="head">How many seconds <br>
+       <span>old</span>  are you ?</h1>
+    <form action="year" method='GET'>
+        {% csrf_token %}
+        <!DOCTYPE html>
+
+        <label class="label" id="demo"> Enter your birth year &emsp;&nbsp; :
+        </label>
+        <input class="submit1"  type="text" name="year" placeholder="ex:2004"><br>
+
+        <label class="label2">Enter your birth month &emsp;: &nbsp;
+        </label>
+        <input class="submit1" type="text" name="month" placeholder="ex: 8(AUG)"><br>
+        <label class="label3">Enter your birth date &emsp; &nbsp; :&emsp; &nbsp;
+
+        <input class="submit1" type="text" name="date" placeholder="22"><br>
+        <p>{{error}} </p>
+    
+
+        <input class="submit" type="submit">
+        
+    </div>
+    <script type = "text/javascript " src="css/input.js" ></script>
+
+    {% endblock %}
+</body>
+

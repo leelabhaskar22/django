@@ -1,0 +1,93 @@
+body {  
+    height: 125vh;  
+    margin-top: 80px;  
+    padding: 30px;  
+    background-size: cover;  
+    font-family: sans-serif;  
+    }  
+    .nav {  
+    background-color:#1a202e; 
+    position: fixed;  
+    left: 0cm;  
+    right: 0;
+    padding-bottom: 20px;  
+    top: 0px;  
+    height: 30px;  
+    text-align: center;
+    display: flex; 
+    box-shadow: 0 0 25px 0 black;  
+    }  
+    .nav * {  
+    display: inline;  
+    }  
+    
+    .heading{
+    align-items: center;
+    color: #ffffff;
+    background-color: #ffffff;
+    padding-left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    body{
+    margin: 5%;
+    }
+    .head{
+    color: #ffffff;; 
+    margin-bottom: 1%;
+    margin-top: -10%;
+    
+    font-family:sans-serif
+    
+    }
+    .body {
+    margin: 10%;
+    color: #fff;
+    
+    }
+    
+    .label  {
+    color: #fff;
+    padding-right: 3%;
+    }
+    .label2{
+    color: #fff;
+    padding-right: 1.7%;
+    }
+    .label3{
+    color: #fff;
+    padding-right: 16%;
+    }
+    .submit{
+    margin-left: 27%;
+    margin-top:3%;
+    }
+    .submit1{
+    margin-left: 1%;
+    margin-top:3%;
+    }
+    .submit:hover{
+    background-color: #ff1966;color: #fff;
+    border: 0%;
+    }
+.rbody{
+    align-items: left;
+    margin-top: 2%;
+
+}   
+.align{
+    margin-top: -8%;
+    text-align: center;
+    margin-bottom: 9%;
+} 
+.rbody{
+    margin-left: 4%;
+    margin-top: -2%;
+}
+.pmargin{
+    font-size: 120%;
+    margin-bottom: -1%;
+}
+.dj{
+   text-align: center;
+}
